@@ -16,7 +16,7 @@ int main(){
 		
 		cin>>number_test_cases;
 		
-		do{
+		while(count_test_cases<number_test_cases){
 			remainder = 0;
 			number_of_bottles=0;
 			
@@ -33,7 +33,7 @@ int main(){
 			cout<<number_of_bottles;
 			
 			count_test_cases++;
-		}while(count_test_cases<number_test_cases);
+		}
 		
 		return 0;
 		
